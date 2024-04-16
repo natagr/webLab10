@@ -25,7 +25,7 @@ src/main/resources/json department
 
 ## Subject area:
 
-### Course - **Instructor** (main - Course, secondary - Instructor)
+**Course - Instructor** (main - Course, secondary - Instructor)
 
 Each course has one instructor, but one instructor can teach several different courses.
 

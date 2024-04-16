@@ -1,8 +1,6 @@
 ## Project Launch
 
-This project can be run through the Integrated Development Environment (IDE) IntelliJ IDEA. For a correct launch of the program, certain parameters must be passed to it 
-
-(`Run -> Edit Configurations -> Application -> App -> Program arguments`).
+This project can be run through the Integrated Development Environment (IDE) IntelliJ IDEA. For a correct launch of the program, certain parameters must be passed to it (`Run -> Edit Configurations -> Application -> App -> Program arguments`).
 
 ### Required Launch Parameters
 
@@ -22,6 +20,7 @@ The project already includes a folder with sample JSON files. The path to this f
 ### Example of correctly entered parameters for launch:
 
 src/main/resources/json department
+
 
 
 ## Subject area:

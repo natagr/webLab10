@@ -22,9 +22,6 @@ The project already includes a folder with sample JSON files. The path to this f
 src/main/resources/json department
 
 
-
-
-
 ## Subject area:
 
 **Course - Instructor** (main - Course, secondary - Instructor)
@@ -94,8 +91,6 @@ Each course has one instructor, but one instructor can teach several different c
  - `validateAttribute(String attribute)`: Checks if the provided attribute is among the allowed attributes (`department`, `credits`, `instructor`). Returns `true` if valid, otherwise prints an error message and returns `false`.
 
  - `validate(String[] args)`: Combines validation of the arguments length, folder path, and attribute in one method to streamline the validation process before the application performs any operations. Returns `true` if all validations are passed.
-
-
 
 ### App
 

@@ -79,6 +79,22 @@ Each course has one instructor, but one instructor can teach several different c
 - **Key Methods**:
   - `measurePerformance(String folderPath, String attribute, int[] threads)`: Measures execution time with varying thread counts and prints metrics.
 
+### ParameterValidator
+
+- **Purpose**: Provides validation for application input parameters to ensure they meet specific criteria before the application processes them. 
+
+- **Key Methods:**
+
+ - `validateArgsLength(String[] args)`: Checks if the arguments array contains at least two elements to proceed with further processing. Returns `true` if valid, otherwise prints an error message and returns `false`.
+
+ - `validateFolderPath(String folderPath)`: Validates that the given folder path exists and is a directory. Returns `true` if valid, otherwise prints an error message and returns `false`.
+
+ - `validateAttribute(String attribute)`: Checks if the provided attribute is among the allowed attributes (`department`, `credits`, `instructor`). Returns `true` if valid, otherwise prints an error message and returns `false`.
+
+ - `validate(String[] args)`: Combines validation of the arguments length, folder path, and attribute in one method to streamline the validation process before the application performs any operations. Returns `true` if all validations are passed.
+
+
+
 ### App
 
 - **Purpose**: Serves as the entry point of the application, orchestrating the flow of operations from files parsing through performance measurement and XML report generation.

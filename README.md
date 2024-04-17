@@ -94,7 +94,7 @@ Each course has one instructor, but one instructor can teach several different c
 - **Key Actions**:
   - Receives command line arguments.
   - Benchmarks parsing performance.
-  - Parses files, converts statistics for reporting.
+  - Parses files.
   - Generates XML report.
 
 

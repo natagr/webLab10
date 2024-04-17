@@ -83,10 +83,10 @@ Each course has one instructor, but one instructor can teach several different c
 
 - **Purpose**: Provides validation for application input parameters to ensure they meet specific criteria before the application processes them. 
 - **Key Methods:**
-  - `validateArgsLength`: Checks if the arguments array contains at least two elements to proceed with further processing. Returns `true` if valid, otherwise prints an error message and returns `false`.
-  - `validateFolderPath`: Validates that the given folder path exists and is a directory. Returns `true` if valid, otherwise prints an error message and returns `false`.
-  - `validateAttribute`: Checks if the provided attribute is among the allowed attributes (`department`, `credits`, `instructor`). Returns `true` if valid, otherwise prints an error message and returns `false`.
-  - `validateParameters`: Combines validation of the arguments length, folder path, and attribute in one method to streamline the validation process before the application performs any operations. Returns `true` if all validations are passed.
+  - `validateArgsLength`: Checks if the arguments array contains at least two elements to proceed with further processing.
+  - `validateFolderPath`: Validates that the given folder path exists and is a directory.
+  - `validateAttribute`: Checks if the provided attribute is among the allowed attributes (`department`, `credits`, `instructor`).
+  - `validateParameters`: Combines validation of the arguments length, folder path, and attribute in one method to streamline the validation process before the application performs any operations.
 
 ### App
 

@@ -138,4 +138,5 @@ This project can be run through the Integrated Development Environment (IDE) Int
     "instructorId": 1
   }
 ]
-  
+
+## Note: The JSON file for importing data is located at the path: src\main\resources\json\file.json
